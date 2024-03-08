@@ -7,7 +7,7 @@ This is a RESTful API for a book review system built with FastAPI.
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/Aditya-Shekhar-73/assignment-fastapi3.git
-cd assignment
+cd assignment-fastapi3
 ```
 
 ### 2.  Install Virtual Environment (vir-env)
