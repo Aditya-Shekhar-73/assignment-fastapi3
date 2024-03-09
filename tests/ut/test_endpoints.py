@@ -4,9 +4,9 @@
 
 
 def test_add_book(client):
-    response = client.post("/addBooks/", json={"title": "Test Book 3", "author": "Test Author 2", "publication_year": 2022})
+    response = client.post("/addBooks/", json={"title": "Test Book", "author": "Test Author", "publication_year": 2022})
     assert response.status_code == 200
-    assert response.json()["title"] == "Test Book 3"
+    assert response.json()["title"] == "Test Book"
 
 def test_submit_review(client):
     book_id = 1  # Assuming book with ID 1 exists

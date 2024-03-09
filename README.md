@@ -36,7 +36,7 @@ Swagger UI URL: localhost:5000/docs
 ### 6. Testing
 Assuming you are in the root directory of the project and virtual environment is already activated
 ```bash
-pytest -v test\ut
+pytest -v tests\ut
 ```
 
 ### Endpoints
