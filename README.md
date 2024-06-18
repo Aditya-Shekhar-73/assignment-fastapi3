@@ -13,7 +13,7 @@ cd assignment-fastapi3
 ### 2.  Install Virtual Environment (vir-env)
 Assuming you have alraedy installed python 3.8.10 in your windows
 ```bash
-python venv vir-env
+python -m venv vir-env
 ```
 
 ### 3. Activate Virtual Environment and install dependencies
